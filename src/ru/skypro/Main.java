@@ -22,5 +22,6 @@ public class Main {
         System.out.println("Год публикации был = " + ruslanIlyudmila.getPublishingYear());
         ruslanIlyudmila.setPublishingYear(2022);
         System.out.println("Год публикации стал = " + ruslanIlyudmila.getPublishingYear());
+
     }
 }
