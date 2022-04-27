@@ -2,7 +2,7 @@ package ru.skypro;
 
 public class Book {
     private final String bookName;
-    public Author authorName;
+    private Author authorName;
     private int publishingYear;
 
     public Book(String bookName, Author authorName, int publishingYear) {

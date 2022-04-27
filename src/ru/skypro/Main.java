@@ -6,22 +6,22 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Author tolstoy = new Author("Лев", "Толстой");
-        System.out.println("Автор книги" + " " + tolstoy.getAuthorName());
-        Book voinaImir = new Book("Война и Мир", tolstoy, 1867);
-        System.out.println("Год публикации был = " + voinaImir.getPublishingYear());
+        Author tolstoy = new Author("Р›РµРІ", "РўРѕР»СЃС‚РѕР№");
+        System.out.println("РђРІС‚РѕСЂ РєРЅРёРіРё" + " " + tolstoy.getAuthorName());
+        Book voinaImir = new Book("Р’РѕР№РЅР° Рё РњРёСЂ", tolstoy, 1867);
+        System.out.println("Р“РѕРґ РїСѓР±Р»РёРєР°С†РёРё Р±С‹Р» = " + voinaImir.getPublishingYear());
         voinaImir.setPublishingYear(2022);
-        System.out.println("Год публикации стал = " + voinaImir.getPublishingYear());
+        System.out.println("Р“РѕРґ РїСѓР±Р»РёРєР°С†РёРё СЃС‚Р°Р» = " + voinaImir.getPublishingYear());
         System.out.println(voinaImir.getBookName() + " " + voinaImir.getPublishingYear());
 
         System.out.println();
-        Author pushkin = new Author("Александр", "Пушкин");
-        System.out.println("Автор книги" + " " + pushkin.getAuthorName());
-        Book ruslanIlyudmila = new Book("Руслан и Людмила", pushkin, 1820);
+        Author pushkin = new Author("РђР»РµРєСЃР°РЅРґСЂ", "РџСѓС€РєРёРЅ");
+        System.out.println("РђРІС‚РѕСЂ РєРЅРёРіРё" + " " + pushkin.getAuthorName());
+        Book ruslanIlyudmila = new Book("Р СѓСЃР»Р°РЅ Рё Р›СЋРґРјРёР»Р°", pushkin, 1820);
         System.out.println(ruslanIlyudmila.getBookName() + " " + ruslanIlyudmila.getPublishingYear());
-        System.out.println("Год публикации был = " + ruslanIlyudmila.getPublishingYear());
+        System.out.println("Р“РѕРґ РїСѓР±Р»РёРєР°С†РёРё Р±С‹Р» = " + ruslanIlyudmila.getPublishingYear());
         ruslanIlyudmila.setPublishingYear(2022);
-        System.out.println("Год публикации стал = " + ruslanIlyudmila.getPublishingYear());
+        System.out.println("Р“РѕРґ РїСѓР±Р»РёРєР°С†РёРё СЃС‚Р°Р» = " + ruslanIlyudmila.getPublishingYear());
 
     }
 }
